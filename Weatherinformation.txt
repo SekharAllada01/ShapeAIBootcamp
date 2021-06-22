@@ -1,0 +1,7 @@
+----------------------------------------------------------------------
+Weather Stats for - KAKINADA||22 Jun 2021 | 02:54:48 PM
+----------------------------------------------------------------------
+Current temperature is: 32.26 deg C
+Current weather desc  :moderate rain
+Current Humidity      :32%
+Current wind speed    :0.43kmph
