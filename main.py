@@ -17,9 +17,9 @@ wind_spd = api_data['wind']['speed']
 date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
 
 with open('Weatherinfo.txt', 'w') as f:
-    f.write("--------------------------------------------------------------------------------")
+    f.write("----------------------------------------------------------------------")
     f.write("\nWeather Stats for - {}||{}".format(location.upper(), date_time))
-    f.write("\n-------------------------------------------------------------------------------")
+    f.write("\n--------------------------------------------------------------------")
     f.write("\nCurrent temperature is: {:.2f} deg C".format(temp_city))
     f.write("\nCurrent weather desc  :{}".format(weather_desc))
     f.write("\nCurrent Humidity      :{}".format(hmdt)+"%")
